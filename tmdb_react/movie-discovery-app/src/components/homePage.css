@@ -1,0 +1,56 @@
+/* homePage.css */
+/* Add CSS styles for the grid layout */
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C85080 46%, #FFCC70 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  /* Prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+.movie-card {
+  /* Add styles for each movie card */
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust movie poster size */
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.search-bar {
+  /* Add styles for the search bar here */
+  margin-top: 20px;
+  text-align: center;
+}
+
+
