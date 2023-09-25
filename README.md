@@ -33,7 +33,7 @@ To set up this application locally, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd react-movie-search-app
+    cd tmdb_react
     ```
 3. Install project dependencies:
 
