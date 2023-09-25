@@ -1,70 +1,70 @@
-# React Movie Search App
+# Getting Started with Create React App
 
-![Movie Search App](https://example.com/movie-search-app-screenshot.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple React-based movie search application that allows users to search for movies and view popular movies. It leverages the TMDB API for movie data retrieval.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Credits](#credits)
-- [License](#license)
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Search Movies:** Users can enter movie titles in the search bar and press Enter or click the "Search" button to find movies matching their query.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **View Popular Movies:** The app displays a list of popular movies by default when loaded.
+### `npm test`
 
-- **Movie Details:** Clicking on a movie card displays more details about the selected movie, including its poster, title, and release date.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation
+### `npm run build`
 
-To set up this application locally, follow these steps:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Clone the repository to your local machine:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   ```bash
-   git clone https://github.com/k-e-ian/react-movie-search-app.git
-   ```
-2. Navigate to the project directory:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-    ```bash
-    cd react-movie-search-app
-    ```
-3. Install project dependencies:
+### `npm run eject`
 
-    ```bash
-    npm install
-    ```
-4. Obtain a TMDB API Key:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-    *    Sign up for an account at The Movie Database (TMDb).
-    *    Generate an API key in your TMDb account settings.
-    *    Replace 'YOUR_TMDB_API_KEY' with your actual API key in src/config/config.js.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Usage
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Start the development server:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    ```bash
-    npm start
-    ```
+## Learn More
 
-2. Open your web browser and go to http://localhost:3000 to access the application.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### How It Works
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    * The application uses React for its user interface.
-    * It fetches movie data from the TMDB API for both popular movies and search results.
-    * Users can search for movies by entering keywords in the search bar and pressing Enter or clicking the "Search" button.
-    * Popular movies are displayed by default when the app is loaded.
-    * Movie details are shown when a user clicks on a movie card.
+### Code Splitting
 
-### Credits
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-    * This project was created by Ian Kitembe.
-    * Movie data is provided by The Movie Database (TMDb).
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
